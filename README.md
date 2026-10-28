@@ -8,10 +8,6 @@ Guilherme Ulacco (RM: 558418)
  
 Matheus Hostim (RM: 556517)
 
-# IncidentManagement — Sistema de gestão de ocorrências escolares
-
-Esta versão mantém a estrutura original (`templates/`, `static/css/` e `static/js/`) e adiciona uma API Flask com banco SQLite para atender aos requisitos do PDF.
-
 ## Como executar no Windows
 
 1. Instale Python 3.10 ou superior.
@@ -36,9 +32,7 @@ py app.py
 | Coordenador | `coordenador` | `1234` |
 | Professor Administrativo | `administrativo` | `1234` |
 
-Altere as senhas e a chave de sessão antes de qualquer uso real. O banco de dados é criado automaticamente em `instance/incident_management.db`.
-
-## Funcionalidades cobertas
+## Funcionalidades 
 
 - Login e autorização por perfil no backend.
 - Cadastro, consulta, edição e inativação de alunos e turmas.
@@ -50,8 +44,3 @@ Altere as senhas e a chave de sessão antes de qualquer uso real. O banco de dad
 - Dashboard com totalizadores e gráficos por categoria, tipo, turma e aluno.
 - Upload de foto de aluno (máximo 5 MB).
 
-## Observações
-
-- O banco SQLite e as fotos ficam localmente no computador que executa o servidor.
-- As contas iniciais são apenas para demonstração; não use senhas de demonstração em produção.
-- A interface original foi preservada e os arquivos novos foram adicionados para completar os requisitos. Algumas telas antigas do projeto original podem conter operações extras que não fazem parte dos requisitos principais e não foram substituídas por uma nova interface.
